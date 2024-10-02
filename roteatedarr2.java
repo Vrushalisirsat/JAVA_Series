@@ -12,8 +12,7 @@ public class roteatedarr2 {
 
             if(target == arr[mid])
             return mid;
-
-            if(arr[mid] < arr[end]){
+            else if(arr[mid] < arr[end]){
                 if(target > arr[mid] && target <= arr[end]){
                     start = mid+1;
                 }else{
